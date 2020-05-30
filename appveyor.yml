@@ -1,0 +1,23 @@
+clone_depth: 1
+
+environment:
+  matrix:
+    - ANDROID_HOME: "C:\\android-sdk-windows"
+
+install:
+  - appveyor DownloadFile https://dl.google.com/android/repository/sdk-tools-windows-3859397.zip
+  - 7z x sdk-tools-windows-3859397.zip -oC:\android-sdk-windows > nul
+  - yes | C:\android-sdk-windows\tools\bin\sdkmanager.bat "ndk;21.0.6113669"
+
+before_build:
+  - git submodule update --init --recursive
+
+build_script:
+  - gradlew.bat assemble
+
+after_build:
+  - dir /s
+  - appveyor PushArtifact app\nonRoot\release\app-nonRoot-release.apk
+  - appveyor PushArtifact app\root\release\app-root-release.apk
+
+deploy: off
