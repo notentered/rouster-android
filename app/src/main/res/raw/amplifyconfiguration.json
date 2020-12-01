@@ -1,0 +1,33 @@
+{
+  "auth": {
+    "plugins": {
+      "awsCognitoAuthPlugin": {
+        "CognitoUserPool": {
+          "Default": {
+            "PoolId": "eu-central-1_6MWzJ5Hof",
+            "AppClientId": "50hodc8h4h8sc07rtl30djc9vh",
+            "Region": "eu-central-1"
+          }
+        },
+        "Auth": {
+          "Default": {
+            "OAuth": {
+              "WebDomain": "rouster-auth-android.auth.eu-central-1.amazoncognito.com",
+              "AppClientId": "50hodc8h4h8sc07rtl30djc9vh",
+              "SignInRedirectURI": "rouster://callback/",
+              "SignOutRedirectURI": "rouster://signout/",
+              "Scopes": [
+                "phone",
+                "email",
+                "openid",
+                "profile",
+                "aws.cognito.signin.user.admin"
+              ]
+            },
+            "authenticationFlowType": "USER_SRP_AUTH"
+          }
+        }
+      }
+    }
+  }
+}
