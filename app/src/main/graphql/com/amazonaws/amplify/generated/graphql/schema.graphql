@@ -1,0 +1,86 @@
+﻿schema {
+  query: Query
+  mutation: Mutation
+}
+
+type CloudComputer {
+  cpus: Int
+  dtCreated: AWSDateTime
+  dtLastRun: AWSDateTime
+  events: [CloudComputerEvent]
+  gpu: String
+  id: ID!
+  name: String
+  os: String
+  privateIpAddress: String
+  publicIpAddress: String
+  ram: String
+  state: String
+  storageFree: String
+  storageTotal: String
+  storageUsed: String
+  updatesPending: Boolean
+}
+
+type CloudComputerEvent {
+  dtCreated: AWSDateTime
+  dtFinished: AWSDateTime
+  errorMsg: String
+  name: String
+  state: String
+}
+
+type Mutation {
+  AddUser(User: UserInput!): User
+  CloudComputerAccessKey(Id: String): String
+  CloudComputerCreate(Id: String!): CloudComputer
+  CloudComputerDestroy(Id: String!): Boolean
+  CloudComputerRestart(Id: String): Boolean
+  CloudComputerStart(Id: String): Boolean
+  CloudComputerStop(Id: String): Boolean
+  RemoveUser(Id: String!): User
+  UpdateUser(Id: String!, User: UserInput!): User
+}
+
+type Property {
+  key: String
+  value: String
+}
+
+type Query {
+  CloudComputerInfo(Id: String): CloudComputer
+  FindUser(Id: String!, WithComputerInfo: Boolean!): User
+  GetUserInfo(WithComputerInfo: Boolean!): User
+  GetUsersInfo(WithComputerInfo: Boolean!): [User]
+}
+
+type User {
+  CognitoId: String
+  Description: String
+  Email: AWSEmail!
+  FName: String
+  HWID: String
+  Id: String
+  LName: String
+  LastLogin: AWSDateTime
+  MachineId: String
+  Properties: [Property]
+  computer: CloudComputer
+}
+
+input PropertyInput {
+  key: String
+  value: String
+}
+
+input UserInput {
+  CognitoId: String
+  Description: String
+  Email: AWSEmail
+  FName: String
+  HWID: String
+  LName: String
+  LastLogin: AWSDateTime
+  MachineId: String
+  Properties: [PropertyInput]
+}

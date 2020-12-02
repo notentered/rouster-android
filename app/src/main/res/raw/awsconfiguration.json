@@ -1,0 +1,16 @@
+{
+  "CognitoUserPool": {
+    "Default": {
+      "PoolId": "eu-central-1_6MWzJ5Hof",
+      "AppClientId": "50hodc8h4h8sc07rtl30djc9vh",
+      "Region": "eu-central-1"
+    }
+  },
+  "AppSync": {
+    "Default": {
+      "ApiUrl": "https://dyh5xunzdfaafodiwj73p6dk6e.appsync-api.eu-central-1.amazonaws.com/graphql",
+      "Region": "eu-central-1",
+      "AuthMode": "AMAZON_COGNITO_USER_POOLS"
+    }
+  }
+}

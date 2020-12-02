@@ -1,0 +1,129 @@
+# this is an auto generated file. This will be overwritten
+query CloudComputerInfo($Id: String) {
+  CloudComputerInfo(Id: $Id) {
+    cpus
+    dtCreated
+    dtLastRun
+    events {
+      dtCreated
+      dtFinished
+      errorMsg
+      name
+      state
+    }
+    gpu
+    id
+    name
+    os
+    privateIpAddress
+    publicIpAddress
+    ram
+    state
+    storageFree
+    storageTotal
+    storageUsed
+    updatesPending
+  }
+}
+query FindUser($Id: String!, $WithComputerInfo: Boolean!) {
+  FindUser(Id: $Id, WithComputerInfo: $WithComputerInfo) {
+    CognitoId
+    Description
+    Email
+    FName
+    HWID
+    Id
+    LName
+    LastLogin
+    MachineId
+    Properties {
+      key
+      value
+    }
+    computer {
+      cpus
+      dtCreated
+      dtLastRun
+      gpu
+      id
+      name
+      os
+      privateIpAddress
+      publicIpAddress
+      ram
+      state
+      storageFree
+      storageTotal
+      storageUsed
+      updatesPending
+    }
+  }
+}
+query GetUserInfo($WithComputerInfo: Boolean!) {
+  GetUserInfo(WithComputerInfo: $WithComputerInfo) {
+    CognitoId
+    Description
+    Email
+    FName
+    HWID
+    Id
+    LName
+    LastLogin
+    MachineId
+    Properties {
+      key
+      value
+    }
+    computer {
+      cpus
+      dtCreated
+      dtLastRun
+      gpu
+      id
+      name
+      os
+      privateIpAddress
+      publicIpAddress
+      ram
+      state
+      storageFree
+      storageTotal
+      storageUsed
+      updatesPending
+    }
+  }
+}
+query GetUsersInfo($WithComputerInfo: Boolean!) {
+  GetUsersInfo(WithComputerInfo: $WithComputerInfo) {
+    CognitoId
+    Description
+    Email
+    FName
+    HWID
+    Id
+    LName
+    LastLogin
+    MachineId
+    Properties {
+      key
+      value
+    }
+    computer {
+      cpus
+      dtCreated
+      dtLastRun
+      gpu
+      id
+      name
+      os
+      privateIpAddress
+      publicIpAddress
+      ram
+      state
+      storageFree
+      storageTotal
+      storageUsed
+      updatesPending
+    }
+  }
+}

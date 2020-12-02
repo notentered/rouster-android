@@ -1,0 +1,144 @@
+# this is an auto generated file. This will be overwritten
+mutation AddUser($User: UserInput!) {
+  AddUser(User: $User) {
+    CognitoId
+    Description
+    Email
+    FName
+    HWID
+    Id
+    LName
+    LastLogin
+    MachineId
+    Properties {
+      key
+      value
+    }
+    computer {
+      cpus
+      dtCreated
+      dtLastRun
+      gpu
+      id
+      name
+      os
+      privateIpAddress
+      publicIpAddress
+      ram
+      state
+      storageFree
+      storageTotal
+      storageUsed
+      updatesPending
+    }
+  }
+}
+mutation CloudComputerAccessKey($Id: String) {
+  CloudComputerAccessKey(Id: $Id)
+}
+mutation CloudComputerCreate($Id: String!) {
+  CloudComputerCreate(Id: $Id) {
+    cpus
+    dtCreated
+    dtLastRun
+    events {
+      dtCreated
+      dtFinished
+      errorMsg
+      name
+      state
+    }
+    gpu
+    id
+    name
+    os
+    privateIpAddress
+    publicIpAddress
+    ram
+    state
+    storageFree
+    storageTotal
+    storageUsed
+    updatesPending
+  }
+}
+mutation CloudComputerDestroy($Id: String!) {
+  CloudComputerDestroy(Id: $Id)
+}
+mutation CloudComputerRestart($Id: String) {
+  CloudComputerRestart(Id: $Id)
+}
+mutation CloudComputerStart($Id: String) {
+  CloudComputerStart(Id: $Id)
+}
+mutation CloudComputerStop($Id: String) {
+  CloudComputerStop(Id: $Id)
+}
+mutation RemoveUser($Id: String!) {
+  RemoveUser(Id: $Id) {
+    CognitoId
+    Description
+    Email
+    FName
+    HWID
+    Id
+    LName
+    LastLogin
+    MachineId
+    Properties {
+      key
+      value
+    }
+    computer {
+      cpus
+      dtCreated
+      dtLastRun
+      gpu
+      id
+      name
+      os
+      privateIpAddress
+      publicIpAddress
+      ram
+      state
+      storageFree
+      storageTotal
+      storageUsed
+      updatesPending
+    }
+  }
+}
+mutation UpdateUser($Id: String!, $User: UserInput!) {
+  UpdateUser(Id: $Id, User: $User) {
+    CognitoId
+    Description
+    Email
+    FName
+    HWID
+    Id
+    LName
+    LastLogin
+    MachineId
+    Properties {
+      key
+      value
+    }
+    computer {
+      cpus
+      dtCreated
+      dtLastRun
+      gpu
+      id
+      name
+      os
+      privateIpAddress
+      publicIpAddress
+      ram
+      state
+      storageFree
+      storageTotal
+      storageUsed
+      updatesPending
+    }
+  }
+}
