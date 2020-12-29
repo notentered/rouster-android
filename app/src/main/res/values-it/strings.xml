@@ -48,7 +48,7 @@
         Usare un software di desktop remoto può causare questo errore. Prova a riavviare il PC o a reinstallare GFE.
     </string>
     <string name="title_decoding_error">Il decodificatore video ha smesso di funzionare</string>
-    <string name="message_decoding_error">Moonlight ha smesso di funzionare per colpa di un problema al decodificatore video di questo dispositivo. Prova a modificare le impostazioni di stream se il problema persiste.</string>
+    <string name="message_decoding_error">Rouster ha smesso di funzionare per colpa di un problema al decodificatore video di questo dispositivo. Prova a modificare le impostazioni di stream se il problema persiste.</string>
     <string name="title_decoding_reset">Ripristino impostazioni video</string>
     <string name="message_decoding_reset">Il decodificatore video del dispositivo continua a funzionare in modo anomalo con le impostazioni di streaming selezionate. Le impostazioni di streaming sono state ripristinate ai valori predefiniti.</string>
     <string name="error_usb_prohibited">L\'accesso USB è vietato dall\'amministratore del dispositivo. Verifica le impostazioni Knox o MDM.</string>
@@ -120,7 +120,7 @@
     <string name="title_checkbox_xb1_driver">Driver del controller Xbox 360/One</string>
     <string name="summary_checkbox_xb1_driver">Abilita un driver USB integrato per dispositivi senza supporto al controller Xbox nativo</string>
     <string name="title_checkbox_usb_bind_all">Sovrascrivi il supporto ai controller su Android</string>
-    <string name="summary_checkbox_usb_bind_all">Forza i driver USB di Moonlight di assumere il controllo su tutti i controller Xbox supportati</string>
+    <string name="summary_checkbox_usb_bind_all">Forza i driver USB di Rouster di assumere il controllo su tutti i controller Xbox supportati</string>
     <string name="title_checkbox_mouse_emulation">Emulazione del mouse tramite controller</string>
     <string name="summary_checkbox_mouse_emulation">Tenendo premuto il pulsante Start, il controller passerà alla modalità mouse</string>
 	
@@ -137,7 +137,7 @@
 
     <string name="category_ui_settings">Impostazioni dell\'interfaccia</string>
     <string name="title_language_list">Lingua</string>
-    <string name="summary_language_list">Lingua da usare in Moonlight</string>
+    <string name="summary_language_list">Lingua da usare in Rouster</string>
     <string name="title_checkbox_small_icon_mode">Usa icone piccole</string>
     <string name="summary_checkbox_small_icon_mode">Usa icone piccole nella griglia per avere più oggetti a schermo</string>
 

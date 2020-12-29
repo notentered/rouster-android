@@ -22,12 +22,12 @@
     
     <!-- Network test strings -->
     <string name="nettest_title_waiting">Test de la connexion réseau</string>
-    <string name="nettest_text_waiting">Moonlight teste votre connexion réseau pour déterminer si NVIDIA GameStream est bloqué.\n\nCela peut prendre quelques secondes.</string>
+    <string name="nettest_text_waiting">Rouster teste votre connexion réseau pour déterminer si NVIDIA GameStream est bloqué.\n\nCela peut prendre quelques secondes.</string>
     <string name="nettest_title_done">Test du réseau terminé</string>
-    <string name="nettest_text_success">Votre réseau ne semble pas bloquer Moonlight. Si vous avez encore de la difficulté à vous connecter, vérifiez les paramètres du pare-feu de votre PC.\n\nSi vous essayez de diffuser sur Internet, installez l\'outil d\'hébergement Internet Moonlight sur votre PC et exécutez le testeur de streaming Internet inclus pour vérifier la connexion Internet de votre PC.</string>
-    <string name="nettest_text_inconclusive">Le test réseau n’a pas pu être effectué car aucun des serveurs de test de connexion Moonlight n’était accessible. Vérifiez votre connexion Internet ou réessayez plus tard.</string>
-    <string name="nettest_text_failure">La connexion réseau actuelle de votre appareil semble bloquer Moonlight. Le streaming sur Internet peut ne pas fonctionner lorsqu’il est connecté à ce réseau.\n\nLes ports réseau suivants ont été bloqués:\n</string>
-    <string name="nettest_text_blocked">La connexion réseau actuelle de votre appareil bloque Moonlight. Le streaming sur Internet peut ne pas fonctionner lorsqu’il est connecté à ce réseau.</string>
+    <string name="nettest_text_success">Votre réseau ne semble pas bloquer Rouster. Si vous avez encore de la difficulté à vous connecter, vérifiez les paramètres du pare-feu de votre PC.\n\nSi vous essayez de diffuser sur Internet, installez l\'outil d\'hébergement Internet Moonlight sur votre PC et exécutez le testeur de streaming Internet inclus pour vérifier la connexion Internet de votre PC.</string>
+    <string name="nettest_text_inconclusive">Le test réseau n’a pas pu être effectué car aucun des serveurs de test de connexion Rouster n’était accessible. Vérifiez votre connexion Internet ou réessayez plus tard.</string>
+    <string name="nettest_text_failure">La connexion réseau actuelle de votre appareil semble bloquer Rouster. Le streaming sur Internet peut ne pas fonctionner lorsqu’il est connecté à ce réseau.\n\nLes ports réseau suivants ont été bloqués:\n</string>
+    <string name="nettest_text_blocked">La connexion réseau actuelle de votre appareil bloque Rouster. Le streaming sur Internet peut ne pas fonctionner lorsqu’il est connecté à ce réseau.</string>
 
     <!-- Pair messages -->
     <string name="pairing">Appariement…</string>
@@ -62,7 +62,7 @@
         L\'utilisation d\'un logiciel de bureau à distance peut également provoquer cette erreur. Essayez de redémarrer votre machine ou de réinstaller GFE.
     </string>
     <string name="title_decoding_error">Le décodeur vidéo s\'est écrasé</string>
-    <string name="message_decoding_error">Moonlight s\'est arrêté en raison d\'une incompatibilité avec le décodeur vidéo de cet appareil. Assurez-vous que GeForce Experience soit mis à jour vers la dernière version sur votre PC. Essayez de régler les paramètres de diffusion si les plantages continuent.</string>
+    <string name="message_decoding_error">Rouster s\'est arrêté en raison d\'une incompatibilité avec le décodeur vidéo de cet appareil. Assurez-vous que GeForce Experience soit mis à jour vers la dernière version sur votre PC. Essayez de régler les paramètres de diffusion si les plantages continuent.</string>
     <string name="title_decoding_reset">Paramètres vidéo réinitialiser</string>
     <string name="message_decoding_reset">Le décodeur vidéo de votre appareil continue de planter avec les paramètres de diffusion sélectionnés. Vos paramètres de diffusion ont été réinitialisés par défaut.</string>
     <string name="error_usb_prohibited">L\'accès USB est interdit par votre appareil. Vérifiez vos paramètres Knox ou MDM.</string>
@@ -152,7 +152,7 @@
     <string name="title_checkbox_xb1_driver">Pilote de contrôleur Xbox 360/One</string>
     <string name="summary_checkbox_xb1_driver">Active un pilote USB intégré pour les périphériques sans prise en charge du contrôleur Xbox natif.</string>
     <string name="title_checkbox_usb_bind_all">Ignorer le support du contrôleur Android</string>
-    <string name="summary_checkbox_usb_bind_all">Force le pilote USB de Moonlight à prendre en charge tous les gamepads Xbox pris en charge</string>
+    <string name="summary_checkbox_usb_bind_all">Force le pilote USB de Rouster à prendre en charge tous les gamepads Xbox pris en charge</string>
     <string name="title_checkbox_mouse_emulation">Emulation de la souris via le gamepad</string>
     <string name="summary_checkbox_mouse_emulation">Appuyez longuement sur le bouton Start pour faire basculer la manette de jeu en mode souris.</string>
     <string name="title_checkbox_mouse_nav_buttons">Activer les boutons de la souris arrière et avant</string>
@@ -179,7 +179,7 @@
 
     <string name="category_ui_settings">Paramètres de l\'interface utilisateur</string>
     <string name="title_language_list">Langue</string>
-    <string name="summary_language_list">Langue à utiliser pour Moonlight</string>
+    <string name="summary_language_list">Langue à utiliser pour Rouster</string>
     <string name="title_checkbox_small_icon_mode">Utiliser des petites icônes</string>
     <string name="summary_checkbox_small_icon_mode">Utilisez les petites icônes dans les éléments de la grille pour permettre plus d\'éléments à l\'écran</string>
 

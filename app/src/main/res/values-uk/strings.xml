@@ -107,7 +107,7 @@
 
     <string name="category_ui_settings">Налаштування інтерфейсу</string>
     <string name="title_language_list">Мова</string>
-    <string name="summary_language_list">Мова, яка буде використовуватися в Moonlight</string>
+    <string name="summary_language_list">Мова, яка буде використовуватися в Rouster</string>
     <string name="title_checkbox_small_icon_mode">Використовувати маленькі іконки</string>
     <string name="summary_checkbox_small_icon_mode">Використовувати маленькі іконки в сітці для відображення більшої кількості елементів на екрані</string>
 
@@ -133,7 +133,7 @@
     <string name="help">Допомога</string>
     <string name="applist_connect_msg">Підключення до ПК…</string>
     <string name="title_decoding_error">Збій відео декодера</string>
-    <string name="message_decoding_error">Стався збій Moonlight через проблеми з відео декодером даного пристрою. Спробуйте змінити налаштування трансляції якщо збої будуть продовжуватися.</string>
+    <string name="message_decoding_error">Стався збій Rouster через проблеми з відео декодером даного пристрою. Спробуйте змінити налаштування трансляції якщо збої будуть продовжуватися.</string>
     <string name="title_decoding_reset">Відео Налаштування Скинуті</string>
     <string name="message_decoding_reset">Відео декодер Вашого пристрою давав збої з вибраними налаштуваннями. Налаштування трансляції були скинуті до значень за замовчуванням.</string>
     <string name="error_usb_prohibited">USB доступ заборонений адміністратором пристрою. Перевірте налаштування Knox або MDM.</string>
@@ -141,7 +141,7 @@
     <string name="title_checkbox_enable_pip">Увімкнути перегляд у режимі \"Картинка в картинці\"</string>
     <string name="summary_checkbox_enable_pip">Дозволяє переглядати трансляцію (але не керувати нею) під час роботи в інших додатках</string>
     <string name="title_checkbox_usb_bind_all">Відхилити підтримку контролерів Android</string>
-    <string name="summary_checkbox_usb_bind_all">Змушує USB драйвер Moonlight взяти на себе роботу з усіма підтримуваними Xbox геймпадами</string>
+    <string name="summary_checkbox_usb_bind_all">Змушує USB драйвер Rouster взяти на себе роботу з усіма підтримуваними Xbox геймпадами</string>
     <string name="title_checkbox_mouse_emulation">Емуляція миші на геймпаді</string>
     <string name="summary_checkbox_mouse_emulation">Довге натиснення кнопки Start перемкне геймпад в режим миші</string>
     <string name="title_reset_osc">Скинути схему розташування екранних кнопок</string>
