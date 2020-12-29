@@ -8,11 +8,11 @@
     <string name="pcview_menu_delete_pc">Удалить PC</string>
     <!-- Network test strings -->
     <string name="nettest_title_waiting">Тестирование Сетевого Подключения</string>
-    <string name="nettest_text_waiting">Moonlight тестирует ваше сетевое подключение, чтобы определить, заблокирован ли NVIDIA GameStream.\n\nЭто может занять некоторое время…</string>
+    <string name="nettest_text_waiting">Rouster тестирует ваше сетевое подключение, чтобы определить, заблокирован ли NVIDIA GameStream.\n\nЭто может занять некоторое время…</string>
     <string name="nettest_title_done">Тестирование Подключения Завершено</string>
-    <string name="nettest_text_success">Ваша сеть не блокирует Moonlight. Если у вас всё ещё есть проблемы с соединением, проверьте настройки брандмауэра на компьютере.\n\nЕсли вы пытаетесь транслировать через интернет, установите Moonlight Internet Hosting Tool на ваш компьютер и запустите установленный Internet Streaming Tester, чтобы проверить Интернет-соединение на вашем компьютере.</string>
-    <string name="nettest_text_inconclusive">Тестирование подключения не может быть выполнено, потому что сервера тестирования подключения Moonlight не доступны. Проверьте ваше Интернет-соединение или повторите попытку позже.</string>
-    <string name="nettest_text_failure">Похоже, что текущее сетевое подключение вашего устройства блокирует Moonlight. Трансляция через Интернет может не работать при подключении к этой сети.\n\nСледующие сетевые порты были заблокированы:\n</string>
+    <string name="nettest_text_success">Ваша сеть не блокирует Rouster. Если у вас всё ещё есть проблемы с соединением, проверьте настройки брандмауэра на компьютере.\n\nЕсли вы пытаетесь транслировать через интернет, установите Moonlight Internet Hosting Tool на ваш компьютер и запустите установленный Internet Streaming Tester, чтобы проверить Интернет-соединение на вашем компьютере.</string>
+    <string name="nettest_text_inconclusive">Тестирование подключения не может быть выполнено, потому что сервера тестирования подключения Rouster не доступны. Проверьте ваше Интернет-соединение или повторите попытку позже.</string>
+    <string name="nettest_text_failure">Похоже, что текущее сетевое подключение вашего устройства блокирует Rouster. Трансляция через Интернет может не работать при подключении к этой сети.\n\nСледующие сетевые порты были заблокированы:\n</string>
     <!-- Pair messages -->
     <string name="pairing">Создание пары…</string>
     <string name="pair_pc_offline">Компьютер выключен или находится не в сети</string>
@@ -103,7 +103,7 @@
     <string name="summary_checkbox_flip_face_buttons">Меняет местами кнопки A/B и X/Y на геймпадах и экранных кнопках</string>
     <string name="category_ui_settings">Настройки Интерфейса</string>
     <string name="title_language_list">Язык</string>
-    <string name="summary_language_list">Язык, который будет использоваться в Moonlight</string>
+    <string name="summary_language_list">Язык, который будет использоваться в Rouster</string>
     <string name="title_checkbox_small_icon_mode">Использовать маленькие иконки</string>
     <string name="summary_checkbox_small_icon_mode">Использовать маленькие иконки в сетке для отображения большего числа элементов на экране</string>
     <string name="category_host_settings">Настройки Хоста</string>
@@ -129,7 +129,7 @@
     <string name="help">Помощь</string>
     <string name="applist_connect_msg">Подключение к PC…</string>
     <string name="title_decoding_error">Сбой Видео Декодера</string>
-    <string name="message_decoding_error">Произошел сбой Moonlight из-за проблем с видео декодером данного устройства. Попробуйте изменить настройки трансляции если сбои будут продолжаться.</string>
+    <string name="message_decoding_error">Произошел сбой Rouster из-за проблем с видео декодером данного устройства. Попробуйте изменить настройки трансляции если сбои будут продолжаться.</string>
     <string name="title_decoding_reset">Видео Настройки Сброшены</string>
     <string name="message_decoding_reset">Видео декодер Вашего устройства давал сбои с выбранными настройками. Настройки трансляции были сброшены до значений по умолчанию.</string>
     <string name="error_usb_prohibited">USB доступ запрещен администратором устройства. Проверьте настройки Knox или MDM.</string>
@@ -137,7 +137,7 @@
     <string name="title_checkbox_enable_pip">Включить просмотр в режиме \"Картинка в картинке\"</string>
     <string name="summary_checkbox_enable_pip">Позволяет просматривать трансляцию (но не управлять ей) во время работы в других приложениях</string>
     <string name="title_checkbox_usb_bind_all">Переопределить поддержку контроллеров Android</string>
-    <string name="summary_checkbox_usb_bind_all">Заставляет USB драйвер Moonlight взять на себя работу со всеми поддерживаемыми Xbox геймпадами</string>
+    <string name="summary_checkbox_usb_bind_all">Заставляет USB драйвер Rouster взять на себя работу со всеми поддерживаемыми Xbox геймпадами</string>
     <string name="title_checkbox_mouse_emulation">Эмуляция мыши на геймпаде</string>
     <string name="summary_checkbox_mouse_emulation">Долгое нажатие кнопки Start переключит геймпад в режим мыши</string>
     <string name="title_reset_osc">Сбросить схему расположения экранных кнопок</string>

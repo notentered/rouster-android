@@ -91,7 +91,7 @@
     <string name="summary_checkbox_xb1_driver">Вмикає вбудований USB драйвер для пристроїв без власної підтримки контролерів Xbox</string>
     <string name="category_ui_settings">Налаштування інтерфейсу</string>
     <string name="title_language_list">Мова</string>
-    <string name="summary_language_list">Мова, яка буде використовуватися в Moonlight</string>
+    <string name="summary_language_list">Мова, яка буде використовуватися в Rouster</string>
     <string name="title_checkbox_small_icon_mode">Використовувати маленькі іконки</string>
     <string name="summary_checkbox_small_icon_mode">Використовувати маленькі іконки в сітці додатків, для відображення більшої кількості елементів на екрані</string>
     <string name="category_host_settings">Налаштування хоста</string>
@@ -123,7 +123,7 @@
     <string name="title_checkbox_enable_pip">Увімкнути режим перегляду \"Картинка в картинці\"</string>
     <string name="summary_checkbox_enable_pip">Дозволяє переглядати трансляцію (але не керувати нею) під час роботи в інших додатках</string>
     <string name="title_checkbox_usb_bind_all">Вимкнути рідну підтримку Xbox контролерів від Андроїда</string>
-    <string name="summary_checkbox_usb_bind_all">Використовувати USB драйвер Moonlight для усіх підтриманих контролерів, навіть якщо існує рідна підтримка</string>
+    <string name="summary_checkbox_usb_bind_all">Використовувати USB драйвер Rouster для усіх підтриманих контролерів, навіть якщо існує рідна підтримка</string>
     <string name="title_checkbox_mouse_emulation">Емуляція миші через контролер</string>
     <string name="summary_checkbox_mouse_emulation">Довге натиснення ґудзика Start, перемкне контролер в режим миші</string>
     <string name="title_reset_osc">Скинути власне розташування ґудзиків на екрані</string>

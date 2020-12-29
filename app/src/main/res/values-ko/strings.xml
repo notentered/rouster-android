@@ -101,7 +101,7 @@
     <string name="summary_checkbox_show_onscreen_controls">터치스크린에 가상 컨트롤러 오버레이를 표시합니다</string>
     <string name="category_ui_settings">UI 설정</string>
     <string name="title_language_list">언어</string>
-    <string name="summary_language_list">Moonlight에서 사용할 언어를 선택합니다</string>
+    <string name="summary_language_list">Rouster에서 사용할 언어를 선택합니다</string>
     <string name="title_checkbox_small_icon_mode">작은 아이콘 사용</string>
     <string name="summary_checkbox_small_icon_mode">한 화면에서 더 많은 게임을 볼 수 있게 게임을 더 작게 표시합니다</string>
     <string name="category_host_settings">호스트 설정</string>
@@ -127,7 +127,7 @@
     <string name="text_native_res_dialog">1. 네이티브 해상도 모드는 GeForce Experience에서 공식적으로 지원되지 않으므로 호스트PC의 디스플레이 해상도는 변경되지 않습니다. 따라서 스트리밍 중에 수동으로 해상도를 변경해야합니다.
 \n
 \n2. 장치 해상도와 일치하도록 NVIDIA 제어판에서 사용자 정의 해상도를 생성 할 경우 호스트 PC의 모니터 손상, 기타 잠재적 문제에 대한 NVIDIA의 경고를 읽고 이해했는지 확인하십시오.
-\n 
+\n
 \n3. Moonlight는 PC에서 사용자 정의 해상도를 생성하여 발생하는 문제에 대해 책임을 지지 않습니다.
 \n
 \n4. 장치 또는 호스트 PC가 네이티브 해상도의 스트리밍을 지원하지 않을 수 있습니다.</string>

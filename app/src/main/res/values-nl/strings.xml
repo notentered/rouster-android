@@ -107,7 +107,7 @@
 
   <string name="category_ui_settings">UI Installingen</string>
   <string name="title_language_list">Taal</string>
-  <string name="summary_language_list">Taal te gebruiken in Moonlight</string>
+  <string name="summary_language_list">Taal te gebruiken in Rouster</string>
   <string name="title_checkbox_small_icon_mode">Gebruik kleine iconen</string>
   <string name="summary_checkbox_small_icon_mode">Gebruik kleine iconen in kolom onderdelen zodat meer items tegelijk zichtbaar worden.</string>
 

@@ -42,7 +42,7 @@
     <string name="error_unknown_host"> 无法解析主机地址 </string>
     <string name="error_404">GFE返回了HTTP 404 错误，确保你的电脑显卡支持串流。使用远程桌面软件同样会引起此错误，请尝试重启电脑或重装GFE。</string>
     <string name="title_decoding_error"> 视频解码器崩溃 </string>
-    <string name="message_decoding_error"> 由于与该设备的视频解码器不兼容，Moonlight已崩溃。确保你电脑上的GFE已更新至最新版本，如果崩溃继续，请尝试调整串流设置。 </string>
+    <string name="message_decoding_error"> 由于与该设备的视频解码器不兼容，Rouster已崩溃。确保你电脑上的GFE已更新至最新版本，如果崩溃继续，请尝试调整串流设置。 </string>
     <string name="title_decoding_reset"> 重置视频设置 </string>
     <string name="message_decoding_reset"> 由于设备的视频解码器在你选择的串流设置上持续崩溃，已重置你的串流设置。 </string>
     <string name="error_usb_prohibited"> 设备管理员已禁止USB访问。请检查您的Knox或MDM设置。 </string>
@@ -133,7 +133,7 @@
     <string name="title_checkbox_xb1_driver">Xbox 360/One 手柄驱动 </string>
     <string name="summary_checkbox_xb1_driver"> 为缺少原生Xbox手柄支持的设备启用内置USB驱动 </string>
     <string name="title_checkbox_usb_bind_all"> 覆盖安卓手柄支持 </string>
-    <string name="summary_checkbox_usb_bind_all"> 强制Moonlight的USB驱动接管所有受支持的Xbox手柄 </string>
+    <string name="summary_checkbox_usb_bind_all"> 强制Rouster的USB驱动接管所有受支持的Xbox手柄 </string>
     <string name="title_checkbox_mouse_emulation"> 通过手柄模拟鼠标 </string>
     <string name="summary_checkbox_mouse_emulation"> 长按开始键将手柄切换为鼠标模式 </string>
     <string name="title_checkbox_mouse_nav_buttons"> 启用前进后退鼠标键 </string>
@@ -154,7 +154,7 @@
     <string name="toast_reset_osc_success"> 屏幕按钮布局已经重置 </string>
     <string name="category_ui_settings"> 界面设置 </string>
     <string name="title_language_list"> 语言 </string>
-    <string name="summary_language_list"> 选择Moonlight显示的语言 </string>
+    <string name="summary_language_list"> 选择Rouster显示的语言 </string>
     <string name="title_checkbox_small_icon_mode"> 使用小图标 </string>
     <string name="summary_checkbox_small_icon_mode"> 使用小图标以在屏幕上显示更多项目 </string>
     <string name="category_host_settings"> 主机设置 </string>

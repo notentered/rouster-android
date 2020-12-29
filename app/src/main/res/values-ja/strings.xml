@@ -32,7 +32,7 @@
 
     <!-- Errors -->
     <string name="error_pc_offline">コンピュータはオフラインです</string>
-    <string name="error_manager_not_running">ComputerManagerサービスが動作していません。しばらく待つか、Moonlightを再起動してください</string>
+    <string name="error_manager_not_running">ComputerManagerサービスが動作していません。しばらく待つか、Rousterを再起動してください</string>
     <string name="error_unknown_host">ホストが解決できません</string>
     <string name="error_404">GFEがHTTP 404を返しました。コンピュータでサポートされているGPUが動作しているか確認してください。リモートデスクトップソフトウェアでもこのエラーが発生する可能性があります。コンピュータを再起動するか、GFEを再インストールしてください</string>
 
@@ -103,7 +103,7 @@
 
     <string name="category_ui_settings">インターフェース</string>
     <string name="title_language_list">言語</string>
-    <string name="summary_language_list">Moonlightで使用する言語</string>
+    <string name="summary_language_list">Rousterで使用する言語</string>
     <string name="title_checkbox_small_icon_mode">小さなアイコン</string>
     <string name="summary_checkbox_small_icon_mode">グリッドで小さなアイコンを使用します</string>
 
